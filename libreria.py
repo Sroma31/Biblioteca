@@ -15,6 +15,8 @@ class Libreria:
         for i, libro in enumerate(self.libri, 1):
             print(f"{i}. {libro}")
 
+    
+
     def cerca(self, parola):
         parola = parola.lower()
         return [
